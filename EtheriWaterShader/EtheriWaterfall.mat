@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EtheriWaterfall
+  m_Shader: {fileID: 4800000, guid: a5b0a7f556bd9f8449114f88915c18ec, type: 3}
+  m_ShaderKeywords: SCROLL_ALBEDO _ALPHAPREMULTIPLY_ON _EMISSION _NORMALMAP _STATICHIGHLIGHTS_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: b27033af63cbd7c4f9586ae88ec0e764, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: cd7bf82f79823cd4e8e09784a53d753d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 445b2b0a134baf241917a52078310c99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: b27033af63cbd7c4f9586ae88ec0e764, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectiveColor:
+        m_Texture: {fileID: 2800000, guid: 7b576077314737e4f8632ee00ef3f3d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectiveColorCube:
+        m_Texture: {fileID: 8900000, guid: 26c263bce38f6f04c833e2521bbe0cc4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave:
+        m_Texture: {fileID: 2800000, guid: d73936c8c956d1f42a6d4ee47680d3f3, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave2:
+        m_Texture: {fileID: 2800000, guid: b27033af63cbd7c4f9586ae88ec0e764, type: 3}
+        m_Scale: {x: 0.06, y: 0.06}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTex:
+        m_Texture: {fileID: 2800000, guid: d73936c8c956d1f42a6d4ee47680d3f3, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - __Texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoScrollX: 0
+    - _AlbedoScrollY: -17
+    - _BumpScale: 1
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _Depth: -4
+    - _DepthDensity: 0.258
+    - _DepthDensityVertical: 0
+    - _DepthFar: 100
+    - _DepthMultiply: 0
+    - _DepthNear: -80
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _EdgeDistance: 0
+    - _EdgeFoamTile: 0
+    - _EdgePower: 1
+    - _FoamDensity: 0.73
+    - _FoamDistortion: 0.483
+    - _FoamMask: 2
+    - _FoamMax: 0.57
+    - _FoamMin: 0.75
+    - _FoamScrollSpeed: 0.85
+    - _FoamTile: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _IgnoreDepthBuffer: 0
+    - _IgnoreUVs: 1
+    - _IgnoreVertexColour: 0
+    - _Metallic: 1
+    - _Mode: 3
+    - _NormalIntensity: 4.55
+    - _NormalSpeed: 1
+    - _NormalStrenght: 0.32
+    - _NormalTile: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflDistort: 0.587
+    - _RefrDistort: 0.462
+    - _RefractAmount: 0
+    - _ScrollAlbedo: 1
+    - _ScrollSpeedX: 1.6
+    - _ScrollSpeedY: 1.04
+    - _ScrollX: 0
+    - _ScrollY: -7.9
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Spin: -9.8
+    - _SrcBlend: 1
+    - _TintMultiply: 1
+    - _UVSec: 0
+    - _WaterFogDensity: 0.15
+    - _Wave2ScrollSpeed: 0.19
+    - _Wave2ScrollX: 0.343
+    - _Wave2ScrollY: 0
+    - _Wave2Strength: 0.1
+    - _WaveHeight: 1
+    - _WaveIntensity: 0
+    - _WaveReflectionDistortion: 0.25
+    - _WaveScale: 0.1076
+    - _WaveScrollSpeed: 0.69
+    - _WaveScrollX: 0.223
+    - _WaveScrollY: 0.52
+    - _WaveSpeed: 0
+    - _WaveStrength: 0.093
+    - _WaveTile: 1
+    - _ZWrite: 0
+    - __dirty: 1
+    - _foamMax: 0
+    - _foamMin: 1
+    m_Colors:
+    - WaveSpeed: {r: 19, g: 9, b: -16, a: -7}
+    - _Color: {r: 0.57075465, g: 0.9557499, b: 1, a: 0.11372549}
+    - _DepthColour: {r: 0.22707579, g: 0.39568636, b: 0.5147058, a: 1}
+    - _EmissionColor: {r: 0, g: 0.03861537, b: 0.06698584, a: 1}
+    - _FoamColour: {r: 1, g: 1, b: 1, a: 1}
+    - _HorizonColor: {r: 0.17199993, g: 0.46299988, b: 0.43499994, a: 0.18431373}
+    - _RefrColor: {r: 0.3702128, g: 0.9234043, b: 1, a: 0.02745098}
+    - _Tint: {r: 0, g: 0.90713024, b: 1, a: 0.24705882}
+    - _WaterColor: {r: 0, g: 0, b: 0, a: 0.36862746}
+    - _WaveStretch: {r: 0.11, g: 0.2, b: 0, a: 0}
+    - _WaveUp: {r: 0, g: 1, b: 0, a: 0}
